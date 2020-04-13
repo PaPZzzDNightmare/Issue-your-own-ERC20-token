@@ -6,7 +6,7 @@ pragma solidity ^0.4.24;
 // Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
 // Symbol      : MrC
 // Name        : Miracles Coin Token
-// Total supply: 100000000000
+// Total supply: 1000000000
 // Decimals    : 18
 //
 // Enjoy.
@@ -116,7 +116,7 @@ contract MiraclesCoinToken is ERC20Interface, Owned, SafeMath {
         symbol = "MrC";
         name = "Miracles Coin Token";
         decimals = 18;
-        _totalSupply = 100000000000000000000000000000;
+        _totalSupply = 100000000000000000000000000;
         balances[0xf50F2A80639e44Bd99FF877013fe010A21684EF8] = _totalSupply;
         emit Transfer(address(0), 0xf50F2A80639e44Bd99FF877013fe010A21684EF8, _totalSupply);
     }

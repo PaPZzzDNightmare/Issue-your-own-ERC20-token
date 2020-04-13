@@ -1,18 +1,17 @@
 pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// 'MiracleCoin' token contract
+// '0Fucks' token contract
 //
 // Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
-// Symbol      : MrC
-// Name        : Miracles Coin Token
-// Total supply: 100000000000
+// Symbol      : 0FUCKS
+// Name        : 0 Fucks Token
+// Total supply: 100000000
 // Decimals    : 18
 //
 // Enjoy.
 //
 // (c) by Moritz Neto with BokkyPooBah / Bok Consulting Pty Ltd Au 2017. The MIT Licence.
-// Authored By Edrisa A. Turay / https://edrisa.com
 // ----------------------------------------------------------------------------
 
 
@@ -100,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract MiraclesCoinToken is ERC20Interface, Owned, SafeMath {
+contract FucksToken is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -109,16 +108,17 @@ contract MiraclesCoinToken is ERC20Interface, Owned, SafeMath {
     mapping(address => uint) balances;
     mapping(address => mapping(address => uint)) allowed;
 
+
     // ------------------------------------------------------------------------
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "MrC";
-        name = "Miracles Coin Token";
+        symbol = "0FUCKS";
+        name = "0 Fucks Token";
         decimals = 18;
-        _totalSupply = 100000000000000000000000000000;
-        balances[0xf50F2A80639e44Bd99FF877013fe010A21684EF8] = _totalSupply;
-        emit Transfer(address(0), 0xf50F2A80639e44Bd99FF877013fe010A21684EF8, _totalSupply);
+        _totalSupply = 100000000000000000000000000;
+        balances[0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222] = _totalSupply;
+        emit Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupply);
     }
 
 

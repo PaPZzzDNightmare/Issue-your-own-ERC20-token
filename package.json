@@ -1,0 +1,20 @@
+{
+  "name": "Issue-your-own-ERC20-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaPZzzDNightmare/Issue-your-own-ERC20-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaPZzzDNightmare/Issue-your-own-ERC20-token/issues"
+  },
+  "homepage": "https://github.com/PaPZzzDNightmare/Issue-your-own-ERC20-token#readme"
+}
